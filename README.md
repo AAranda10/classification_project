@@ -69,24 +69,29 @@
 ### Thoughts
 
 -My initial thoughts were that there would be a relationship between customers churning and average charges
+
 -Then I wanted to decide whether I would convert the boolean values to 1's and 0's
+
 -Lastly I wanted to figure out what graphs would tell the best story related to the data
 
 
 ### Hypotheses
 
 #### My first hypothesis was that there is a difference between fiber customers monthly charges compared monthly charges for all customers
+
 H0: There is no difference in monthly charges between fiber customers compared to all customers
 
 Ha: There is a difference in monthly charges between fiber customers and customers in general
 
 #### My second hypothesis was that fiber internet customers were not independent of customers who churn
+
 H0: Churn customers are independent of fiber customers
 
 Ha: Churn customers are not independent of fiber customers
 
 
 #### Project Plan: Breaking it Down
+
 acquire.py
 
 acquire data from csv gathered from github.com/AAranda10/classification_project/
