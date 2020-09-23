@@ -76,10 +76,10 @@ H0: There is no difference in monthly charges between fiber customers compared t
 
 Ha: There is a difference in monthly charges between fiber customers and customers in general
 
-#### My second hypothesis was that internet types were not independent of eachother
-H0: Churn is independent of type of internet a customer buys
+#### My second hypothesis was that fiber internet customers were not independent of customers who churn
+H0: Churn customers are independent of fiber customers
 
-Ha: Churn is not independent of type of internet a customer buys
+Ha: Churn customers are not independent of fiber customers
 
 
 #### Project Plan: Breaking it Down
