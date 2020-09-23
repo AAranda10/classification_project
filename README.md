@@ -92,36 +92,38 @@ Ha: Churn customers are not independent of fiber customers
 
 #### Project Plan: Breaking it Down
 
-acquire.py
+-Acquire.py
 
-acquire data from csv gathered from github.com/AAranda10/classification_project/
+-Acquire data from csv gathered from github.com/AAranda10/classification_project/
 
-prepare.py from csv gathered from github.com/AAranda10/classification_project/
+-Prepare.py from csv gathered from github.com/AAranda10/classification_project/
 
-address missing data
-split into train, validate, test
+-Address missing data
 
-explore
+-Split into train, validate, test
 
-plot correlation matrix of all variables
-test each hypothesis
+-Explore
 
-model
+-Plot correlation matrix of all variables
 
-try different algorithms: decision tree, logistic regression, random forest, and knn
+-Test each hypothesis
 
-which features have the most impact?
+-Model
 
-evaluate on train
+-Try different algorithms: decision tree, logistic regression, random forest, and knn
 
-select top 4 +/- models to evaluate on validate
+-Which features have the most impact?
 
-select top model
+-Evaluate on train
 
-run model on test to verify
+-Select top 4 +/- models to evaluate on validate
 
-conclusion
+-Select top model
 
-summarize findings
+-Run model on test to verify
 
-make recommendations
+-Conclusion
+
+-Summarize findings
+
+-Make recommendations
