@@ -4,7 +4,11 @@
 
 ## Goals
 
-My goal for this project is to create a model that will predict the probability of a Telco customer churning or not by using the Telco data from the CodeUp Sequal Database. I will also identify the drivers that are causing customers to churn to help better understand the customer's needs and prevent further churn. I will deliver the following: acquire.py, prepare.py, model.pynb and predictions.csv
+-Create a model that will predict the probability of a Telco customer churning or not by using the Telco data from the CodeUp Sequal Database. 
+
+-Identify the drivers that are causing customers to churn to help better understand the customer's needs and prevent further churn.
+
+-Deliver the following: acquire.py, prepare.py, model.pynb and predictions.csv
 
 ## Data Dictionary
 
@@ -65,54 +69,61 @@ My goal for this project is to create a model that will predict the probability 
 ### Thoughts
 
 -My initial thoughts were that there would be a relationship between customers churning and average charges
+
 -Then I wanted to decide whether I would convert the boolean values to 1's and 0's
+
 -Lastly I wanted to figure out what graphs would tell the best story related to the data
 
 
 ### Hypotheses
 
-## My first hypothesis was that there is a difference between fiber customers monthly charges compared monthly charges for all customers
+#### My first hypothesis was that there is a difference between fiber customers monthly charges compared monthly charges for all customers
+
 H0: There is no difference in monthly charges between fiber customers compared to all customers
 
 Ha: There is a difference in monthly charges between fiber customers and customers in general
 
-## My second hypothesis was that internet types were not independent of eachother
-H0: Churn is independent of type of internet a customer buys
+#### My second hypothesis was that fiber internet customers were not independent of customers who churn
 
-Ha: Churn is not independent of type of internet a customer buys
+H0: Churn customers are independent of fiber customers
+
+Ha: Churn customers are not independent of fiber customers
 
 
-## Project Plan: Breaking it Down
-acquire.py
+#### Project Plan: Breaking it Down
 
-acquire data from csv gathered from github.com/AAranda10/classification_project/
+-Acquire.py
 
-prepare.py from csv gathered from github.com/AAranda10/classification_project/
+-Acquire data from csv gathered from github.com/AAranda10/classification_project/
 
-address missing data
-split into train, validate, test
+-Prepare.py from csv gathered from github.com/AAranda10/classification_project/
 
-explore
+-Address missing data
 
-plot correlation matrix of all variables
-test each hypothesis
+-Split into train, validate, test
 
-model
+-Explore
 
-try different algorithms: decision tree, logistic regression, random forest, and knn
+-Plot correlation matrix of all variables
 
-which features have the most impact?
+-Test each hypothesis
 
-evaluate on train
+-Model
 
-select top 4 +/- models to evaluate on validate
+-Try different algorithms: decision tree, logistic regression, random forest, and knn
 
-select top model
+-Which features have the most impact?
 
-run model on test to verify
+-Evaluate on train
 
-conclusion
+-Select top 4 +/- models to evaluate on validate
 
-summarize findings
+-Select top model
 
-make recommendations
+-Run model on test to verify
+
+-Conclusion
+
+-Summarize findings
+
+-Make recommendations
