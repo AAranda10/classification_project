@@ -4,7 +4,9 @@
 
 ## Goals
 
-My goal for this project is to create a model that will predict the probability of a Telco customer churning or not by using the Telco data from the CodeUp Sequal Database. I will also identify the drivers that are causing customers to churn to help better understand the customer's needs and prevent further churn. I will deliver the following: acquire.py, prepare.py, model.pynb and predictions.csv
+-Create a model that will predict the probability of a Telco customer churning or not by using the Telco data from the CodeUp Sequal Database. 
+-Identify the drivers that are causing customers to churn to help better understand the customer's needs and prevent further churn.
+-Deliver the following: acquire.py, prepare.py, model.pynb and predictions.csv
 
 ## Data Dictionary
 
