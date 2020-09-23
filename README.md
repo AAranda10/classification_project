@@ -1,12 +1,12 @@
-#Predictor Of Churn For Telco Customers
+# Predictor Of Churn For Telco Customers
 
-##About the Project
+## About the Project
 
-##Goals
+## Goals
 
 My goal for this project is to create a model that will predict the probability of a Telco customer churning or not by using the Telco data from the CodeUp Sequal Database. I will also identify the drivers that are causing customers to churn to help better understand the customer's needs and prevent further churn. I will deliver the following: acquire.py, prepare.py, model.pynb and predictions.csv
 
-##Data Dictionary
+## Data Dictionary
 
 -customer_id: Unique ID for each customer to keep their information anonymous   
 
@@ -60,29 +60,29 @@ My goal for this project is to create a model that will predict the probability 
 
 -probability: Returns the probability in percentage of the likelihood that a customer will churn
 
-##Initial Hypotheses & Thoughts
+## Initial Hypotheses & Thoughts
 
-###Thoughts
+### Thoughts
 
 -My initial thoughts were that there would be a relationship between customers churning and average charges
 -Then I wanted to decide whether I would convert the boolean values to 1's and 0's
 -Lastly I wanted to figure out what graphs would tell the best story related to the data
 
 
-###Hypotheses
+### Hypotheses
 
-##My first hypothesis was that there is a difference between fiber customers monthly charges compared monthly charges for all customers
+## My first hypothesis was that there is a difference between fiber customers monthly charges compared monthly charges for all customers
 H0: There is no difference in monthly charges between fiber customers compared to all customers
 
 Ha: There is a difference in monthly charges between fiber customers and customers in general
 
-##My second hypothesis was that internet types were not independent of eachother
+## My second hypothesis was that internet types were not independent of eachother
 H0: Churn is independent of type of internet a customer buys
 
 Ha: Churn is not independent of type of internet a customer buys
 
 
-Project Plan: Breaking it Down
+## Project Plan: Breaking it Down
 acquire.py
 
 acquire data from csv gathered from github.com/AAranda10/classification_project/
