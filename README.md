@@ -71,18 +71,18 @@ My goal for this project is to create a model that will predict the probability 
 
 ### Hypotheses
 
-## My first hypothesis was that there is a difference between fiber customers monthly charges compared monthly charges for all customers
+#### My first hypothesis was that there is a difference between fiber customers monthly charges compared monthly charges for all customers
 H0: There is no difference in monthly charges between fiber customers compared to all customers
 
 Ha: There is a difference in monthly charges between fiber customers and customers in general
 
-## My second hypothesis was that internet types were not independent of eachother
+#### My second hypothesis was that internet types were not independent of eachother
 H0: Churn is independent of type of internet a customer buys
 
 Ha: Churn is not independent of type of internet a customer buys
 
 
-## Project Plan: Breaking it Down
+#### Project Plan: Breaking it Down
 acquire.py
 
 acquire data from csv gathered from github.com/AAranda10/classification_project/
